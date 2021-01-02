@@ -1,0 +1,256 @@
+html {
+	scroll-behavior: smooth;
+  }
+
+body {
+	/* background-color: #f9bb34 !important; */
+	background-color: black !important;
+	max-width: 100%;
+}
+
+#garraNav {
+	font-family: 'Nunito', sans-serif;
+	font-size: 2rem;
+	font-weight: 200;
+}
+
+#miniLogo {
+	height: 42px;
+	margin-top: -3px;
+}
+
+#mainNavbar .navbar-brand {
+	color: #f9bb34;
+}
+
+#mainNavbar .navbar-brand:hover {
+	color: #f24fa8;
+	transition: color .3s;
+}
+
+#mainNavbar {
+	font-size: 1.5rem;
+	font-weight: 200;
+}
+
+#mainNavbar .nav-link {
+	color: white;
+}
+
+#mainNavbar .nav-link:hover {
+	color: #f24fa8;
+	transition: color .3s;
+}
+
+
+.navbar-dark {
+	background-color: black;
+}
+
+#garraLuan {
+	height: 75%;
+	padding-top: 55px;
+}
+
+@media (max-width: 992px){
+	#textoSobre {
+		padding-top:35%;
+	}
+}
+
+@media (max-width: 650px){
+	#textoSobre {
+		padding-top:35%;
+	}
+	#sobre #teclado {
+		margin-top: 75px;
+	}
+}
+
+@media (min-width: 380px) {
+	#garraLuan{
+		display: none;
+	}
+}
+
+
+
+/* proposta do GARRA */
+
+#proposta {
+	color: white;
+}
+
+#home {
+	/* height: 75vh; */
+	margin-top: 100px;
+	
+}
+
+.container-fluid h2 {
+	color: #f9bb34;
+	font-size: 1.8rem;
+	font-weight: 200;
+	font-family: 'Nunito', sans-serif;
+}
+
+/* Sobre page */
+
+#sobre {
+	margin: 50px 0;
+	padding-top: 52px;
+
+}
+
+#sobre h1 {
+	color: #f9bb34;
+	font-size: 1.8rem;
+	font-weight: 200;
+	font-family: 'Nunito', sans-serif;
+}
+
+#textoSobre span {
+	color: #f24fa8;
+}
+
+
+/* streamers page */
+
+#streamers {
+	margin: 100px 0;
+	padding-top: 52px;
+
+}
+
+.card {
+	border: 0px !important;
+}
+
+.card-title {
+	color: #f9bb34;
+}
+
+.card-body {
+	background-color :black;
+	border-style: none;
+	color: #f24fa8;
+	height: 32rem;
+	border: 0px !important;
+	font-weight: 200;
+	font-size: 1.8rem;
+	font-family: 'Nunito', sans-serif;
+	display: flex;
+	align-items: center;
+}
+
+.carousel-item .card-text {
+	font-size:1.3rem;
+}
+
+.btn-dark {
+	background-color: black !important;
+}
+
+.btn-dark:hover {
+	background-color:#343a40 !important;
+}
+
+/* discord part */
+
+#discord {
+	margin: 100px 0;
+	padding-top: 52px;
+
+}
+
+iframe {
+	left: 0;
+	right: 0;
+}
+
+@media (max-width:994px){
+	iframe {
+		width: 300%;
+		height: 90vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-left: 100% !important;	
+	}
+}
+
+
+/* PAtrocínio */
+
+#patrocinio {
+	padding-top: 52px;
+
+}
+
+#patrocinio p {
+	font-weight: 200;
+	font-size: 1.8rem;
+	font-family: 'Nunito', sans-serif;
+	color:  #f9bb34;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#patrocinio p span {
+	color: #f24fa8;
+}
+
+/* contato part */
+
+#contato {
+	margin: 100px 0;
+	padding-top: 52px;
+
+}
+
+#contato p {
+	font-weight: 200;
+	font-size: 1.6rem;
+	font-family: 'Nunito', sans-serif;
+	color:  #f9bb34;
+	height: 100%;
+	text-decoration: none;
+}
+
+#contato p span {
+	color: #f24fa8;
+	text-decoration: none;
+	font-weight: 200 !important;
+}
+
+#email {
+	color: white;
+	font-weight: 200;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.289rem;
+}
+
+.textoContato {
+	text-transform: uppercase;
+}
+
+/* footer */
+
+footer a {
+	color: #f9bb34;
+	font-size: 2rem;
+	padding-right: 1vw;
+	padding-left: 1vw;
+}
+
+footer a:hover {
+	color: #f24fa8;
+
+}
+
+@media(max-width: 650px) {
+	footer a, #contato p {
+		font-size: 1.4rem;
+	}
+}
