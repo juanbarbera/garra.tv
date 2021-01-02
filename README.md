@@ -1,2 +1,2 @@
-# gatta.tv
+# garra.tv
 Garra team website
