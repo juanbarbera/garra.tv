@@ -53,15 +53,15 @@ body {
 }
 
 @media (max-width: 992px){
-	#textoSobre {
+	/* #textoSobre {
 		padding-top:35%;
-	}
+	} */
 }
 
 @media (max-width: 650px){
-	#textoSobre {
+	/* #textoSobre {
 		padding-top:35%;
-	}
+	} */
 	#sobre #teclado {
 		margin-top: 75px;
 	}
@@ -94,12 +94,17 @@ body {
 	font-family: 'Nunito', sans-serif;
 }
 
+@media(max-width: 576px){
+	#home {
+		margin-top: 150px;
+	}
+}
+
 /* Sobre page */
 
 #sobre {
 	margin: 50px 0;
 	padding-top: 52px;
-
 }
 
 #sobre h1 {
@@ -111,6 +116,15 @@ body {
 
 #textoSobre span {
 	color: #f24fa8;
+}
+
+@media(max-width: 576px){
+	#textoSobre {
+		padding-top: 50px;
+	}
+	#teclado {
+		padding-bottom: 70px;
+	}
 }
 
 
@@ -187,6 +201,16 @@ iframe {
 
 }
 
+#patrocinio h3 {
+	font-weight: 200;
+	font-size: 1.2rem;
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 #patrocinio p {
 	font-weight: 200;
 	font-size: 1.8rem;
@@ -195,6 +219,7 @@ iframe {
 	height: 100%;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 #patrocinio p span {
@@ -249,8 +274,8 @@ footer a:hover {
 
 }
 
-@media(max-width: 650px) {
+@media(max-width: 576px) {
 	footer a, #contato p {
-		font-size: 1.4rem;
+		font-size: 1.8rem;
 	}
 }
